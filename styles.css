@@ -1,0 +1,23 @@
+/*  Sophia Gerke
+11/10/26
+styles.css */
+
+/* CSS Reset */
+body, header, nav, ul, main, footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Global typography and color properties */
+body {
+  /* Font specifications following Google Font guidelines*/
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* Color scheme */
+  color: #06102b;
+  background-color: #dfe4f2;
+  border-color: #2c3f73;
+}
