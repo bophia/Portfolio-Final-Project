@@ -82,7 +82,7 @@ th, td {
     }
 
 th {
-    background-color: #4b609c;
+    background-color: #7389c7;
     font-size: 1.15em;
 }
 
@@ -91,7 +91,7 @@ tr:nth-child(odd) {
 }
 
 tr:nth-child(even) {
-    background-color: #6b7eb5;
+    background-color: #8fa2d9;
 }
 
 /* Style rules for footer content */
