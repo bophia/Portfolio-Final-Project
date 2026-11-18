@@ -85,7 +85,6 @@ form #submit {
 
 /* Style rules for table elements */
 table {
-    border: 1px solid #2c3f73;
 	box-sizing: border-box;
     border-collapse: collapse;
     margin: 0 auto;
@@ -110,11 +109,11 @@ th {
     font-size: 1.15em;
 }
 
-tr:nth-child(odd) {
+tr:nth-of-type(odd) {
     background-color: #a5b6e6;
 }
 
-tr:nth-child(even) {
+tr:nth-of-type(even) {
     background-color: #8fa2d9;
 }
 
