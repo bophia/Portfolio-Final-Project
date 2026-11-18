@@ -72,14 +72,14 @@ fieldset legend {
 
 label {
 	display: block;
-	padding-top: 3%;
+	padding-top: 1%;
 }
 
 form #submit {
 	margin: 0 auto;
 	display: block;
-	padding: 3%;
-	background-color: #b7b7e1;
+	padding: 1%;
+	background-color: #8fa2d9;
 	font-size: 1em;
 }
 
