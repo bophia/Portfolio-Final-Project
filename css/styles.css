@@ -11,13 +11,27 @@ body, header, nav, ul, main, footer {
 
 /* Global typography and color properties */
 body {
-  /* Font specifications following Google Font guidelines*/
-  font-family: "Source Code Pro", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  /* Color scheme */
-  color: #162757;
-  background-color: #dfe4f2;
-  border-color: #2c3f73;
+	/* Font specifications following Google Font guidelines*/
+	font-family: "Source Code Pro", monospace;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	/* Color scheme */
+	color: #162757;
+	background-color: #dfe4f2;
+	border-color: #2c3f73;
+}
+
+/* Navigation elements */
+nav ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	gap: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #01021c;
 }
