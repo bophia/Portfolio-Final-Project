@@ -91,7 +91,6 @@ table {
     margin: 0 auto;
 	width: 1000px;
     max-width: 100%;
-	table-layout: fixed;
 }
 
 caption {
