@@ -50,6 +50,7 @@ contact.html -->
             <input type="tel" id="phone" name="phone"/>
           </fieldset>
 
+          <!-- Dropdown selection for user interest -->
           <fieldset>
             <legend>User Interest</legend>
             <label for="subject">Inquiry Type:</label>
@@ -60,7 +61,13 @@ contact.html -->
               <option value="other">Other</option>
             </select>
           </fieldset>
-          
+
+          <!-- textarea for additional comments -->
+          <fieldset>
+            <legend>User Comment</legend>
+            <label for="comment">Share Any Additional Information:</label>
+            <textarea id="comment" name="userComment" rows="5" cols="40"></textarea>
+          </fieldset>
           <input type="submit" id="submit" value="Submit" class="btn">
         </form>
       </div>
