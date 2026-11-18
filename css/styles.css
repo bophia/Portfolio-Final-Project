@@ -61,6 +61,28 @@ nav a {
     text-align: center;
 }
 
+fieldset, input {
+	margin-bottom: 2%;
+}
+
+fieldset legend {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+label {
+	display: block;
+	padding-top: 3%;
+}
+
+form #submit {
+	margin: 0 auto;
+	display: block;
+	padding: 3%;
+	background-color: #b7b7e1;
+	font-size: 1em;
+}
+
 /* Style rules for table elements */
 table {
     border: 1px solid #2c3f73;
