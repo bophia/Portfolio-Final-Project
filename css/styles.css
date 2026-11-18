@@ -22,6 +22,19 @@ body {
 	border-color: #2c3f73;
 }
 
+/* Style rule for images */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Style rule for videos */
+video {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
 /* Navigation elements */
 nav ul {
 	display: flex;
@@ -36,8 +49,15 @@ nav a {
 	color: #01021c;
 }
 
-video {
-	max-width: 100%;
-	height: auto;
-	border-radius: 8px;
+/* Style rules for contact content */
+#contact, #form, {
+    text-align: center;
+}
+
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.65em;
+    clear: left;  
 }
