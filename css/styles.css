@@ -30,9 +30,10 @@ img {
 
 /* Style rule for videos */
 video {
+	width: 400px;
 	max-width: 100%;
 	height: auto;
-	border-radius: 8px;
+	border-radius: 10px;
 }
 
 /* Navigation elements */
