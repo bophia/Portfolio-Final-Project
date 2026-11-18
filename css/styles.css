@@ -62,8 +62,8 @@ nav a {
 	color: #01021c;
 }
 
-/* Style rules for contact content */
-#contact, #form, {
+/* Style rules for form content */
+#form {
     text-align: center;
 }
 
