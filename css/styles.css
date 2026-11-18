@@ -62,7 +62,7 @@ nav a {
 
 /* Style rules for table elements */
 table {
-    border: 1px solid #373684;
+    border: 1px solid #2c3f73;
     border-collapse: collapse;
     margin: 0 auto;
     width: 100%;
@@ -75,16 +75,22 @@ caption {
 }
 
 th, td {
-    border: 1px solid #373684;
+    border: 1px solid #2c3f73;
     padding: 2%;
     }
+
 th {
     background-color: #373684;
     color: #fff;
     font-size: 1.15em;
 }
+
 tr:nth-child(odd) {
-    background-color: #b7b7e1;
+    background-color: #a5b6e6;
+}
+
+tr:nth-child(even) {
+    background-color: #6b7eb5;
 }
 
 /* Style rules for footer content */
