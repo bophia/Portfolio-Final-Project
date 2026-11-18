@@ -36,21 +36,14 @@ video {
 	border-radius: 10px;
 }
 
-header {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 2rem;
+h1 {
+	text-align: center;
 }
 
 /* Navigation elements */
-nav {
-  display: flex;
-  gap: 1.5rem;
-}
-
 nav ul {
 	display: flex;
+	justify-content: center;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
