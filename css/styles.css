@@ -63,6 +63,7 @@ nav a {
 /* Style rules for table elements */
 table {
     border: 1px solid #2c3f73;
+	box-sizing: border-box;
     border-collapse: collapse;
     margin: 0 auto;
 	width: 1000px;
