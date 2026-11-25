@@ -123,3 +123,23 @@ footer {
     font-size: 0.8em;
     clear: left;  
 }
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 550px), print {
+	/* Tablet Viewport: Show tab-desk class, hide mobile class */  
+	.tab-desk {
+    	display: block;
+	} 
+
+	.mobile, .mobile-nav {
+    	display: none;  
+	}
+}
+
+/*  Media Query for Desktop Viewport */
+@media screen and (min-width: 769px), print {
+	/* Desktop Viewport: Style rule for header */
+	header {
+		padding: 2%;
+	}
+}
