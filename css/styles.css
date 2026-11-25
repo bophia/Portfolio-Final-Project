@@ -124,6 +124,13 @@ footer {
     clear: left;  
 }
 
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.25rem;
+	padding: 1rem;
+}
+
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 550px), print {
 	/* Tablet Viewport: Show tab-desk class, hide mobile class */  
@@ -134,6 +141,12 @@ footer {
 	.mobile, .mobile-nav {
     	display: none;  
 	}
+
+	.grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1.75rem;
+		padding: 2rem;
+	}
 }
 
 /*  Media Query for Desktop Viewport */
@@ -141,5 +154,12 @@ footer {
 	/* Desktop Viewport: Style rule for header */
 	header {
 		padding: 2%;
+	}
+
+	.grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 2.25rem;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
 }
